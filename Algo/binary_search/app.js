@@ -1,4 +1,4 @@
-//An implementation of a binary search algorithm to search for data in an array in javascript
+//An implementation of a binary search algorithm to search for data in an array in javascript - 
 
 function binary_search(array, user_search_string) {
   let low = 0;
