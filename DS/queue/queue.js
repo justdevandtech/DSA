@@ -9,6 +9,7 @@ class Queue {
   }
 
   dequeue() {
+    this.items.length === 0 && console.log("underflow, queue is empty");
     return this.items.shift();
   }
 
